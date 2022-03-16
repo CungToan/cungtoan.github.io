@@ -4,40 +4,76 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>thuchanh3</title>
+    <title>Điện thoại</title>
     <style>
-        body {
-            display:flex;
-            justify-content:space-between;
-            margin:0;
-        }
-      .box1 {
-        background-color: red;
-        height: 400px;
-        width:33%;
+       
+      img {
+        width: 100%;
+        height:auto ;
       }
-      .box2 {
-        background-color: green;
-        height: 400px;
-        width:33%;
+      body {
+        
+        display: flex;
+       justify-content: center;
+       margin:20px;
+       flex-wrap: wrap;
+       
       }
-      .box3 {
-        background-color: blue;
-        height: 400px;
-        width:33%;
+      #line {
+        display: flex;
+        justify-content: space-around;
+        margin:10px;
+
       }
-      .sidebar {
-          background-color:white;
-          padding-left: :15px;
+      p, h2{
+          text-align: center;
+          padding: 10px;
       }
+      .left, .center, .right{
+          width: 33%;
+          padding: 50px;
+      }
+      p{
+          font-size: larger;
+      }
+      
     </style>
   </head>
   <body>
-    <div class="box1"></div>
-    <div class="sidebar"></div>
-    <div class="box2"></div>
-    <div class="whitebar"></div>
-
-    <div class="box3"></div>
+      <h1>thegioididong.com</h1>
+    <div id="line">
+      <div class="left">
+        <img src="image/1.jpg" alt="anh1" />
+        <p>Samsung Galaxy S22 Ultra 5G 256GB</p>
+        <h2>33.990.000₫</h2>
+      </div>
+      <div class="center">
+        <img src="image/2.jpg" alt="anh2" />
+        <p>iPhone 11 64GB</p>
+        <h2>16.990.000₫</h2>
+      </div>
+      <div class="right">
+        <img src="image/3.jpg" alt="anh3" />
+        <p>Xiaomi Redmi Note 11S</p>
+        <h2>6.690.000₫</h2>
+      </div>
+    </div>
+    <div id="line">
+    <div class="left">
+      <img src="image/4.jpg" alt="anh4" />
+      <p>Realme C35</p>
+      <h2>3.990.000₫</h2>
+    </div>
+    <div class="center">
+      <img src="image/5.jpg" alt="anh5" />
+      <p>Xiaomi 11T 5G 256GB</p>
+      <h2>11.990.000₫</h2>
+    </div>
+    <div class="right">
+      <img src="image/6.jpg" alt="anh6" />
+      <p>Vivo V23e</p>
+      <h2>8.290.000₫</h2>
+    </div>
+</div>
   </body>
 </html>
