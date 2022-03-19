@@ -27,6 +27,7 @@ body{
     height: auto;
     flex-wrap: wrap;
     margin-top:10px;
+   
 }
 #menu{
     width: 20%;
@@ -116,4 +117,3 @@ li.appmenu{
     left:204px;
     top:-4px;
 }
-
