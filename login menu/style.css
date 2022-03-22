@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+    background-image:url(image/triangles-1430105.png);
+    background-size: cover;
+  font-family: "Montserrat", sans-serif;
+  max-width: 100%;
+}
+form {
+  border: 3px solid #16a085;
+  padding: 30px 50px 70px 50px;
+  border-radius: 10px;
+  background-color:aliceblue ;
+  
+}
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+#input-box {
+  border: 2px solid #16a085;
+  line-height: 24px;
+  width: 240px;
+  border-radius: 5px;
+  color: #034d3e;
+}
+#login-box {
+  padding-bottom: 25px;
+  position: relative;
+}
+#check-button {
+}
+h3 {
+  font-size: 20px;
+  tex
+}
+#submit {
+  width: 240px;
+  height: 30px;
+  background-color: #034d3e;
+  border-radius: 5px;
+  color: #d4fff7;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+#login-label {
+  padding-left: 5px;
+  position: absolute;
+  top: 5px;
+  left: 28px;
+}
+#login-box input:focus + #login-label, #login-box input:valid + #login-label {
+  display: none;
+  top: -18px;
+  
+}
+#login-box input:hover + #login-label {
+  display: none;
+
+}
+#login-box #input-box:hover{
+  border: 2px solid #00bb96b1;
+  background-color: rgba(176, 233, 227, 0.57) ;
+   
+}
+#login-box>a{
+   font-size: 15px;
+   font-family: 'Roboto Slab', serif;
+   padding-left:25px;
+   text-decoration: none;
+   color: #036b56;
+}
+#fg-pass{
+   display: flex;
+   justify-content: space-between     ;
+}
+i{
+    color: #034d3e;
+    padding-right: 10px;
+}
+#submit-button{
+    padding-left: 17px;
+}
+#submit:hover{
+  background-color: #027e65 ;
+}
