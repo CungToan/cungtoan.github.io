@@ -13,12 +13,12 @@ img {
   border-radius: 10px;
 }
 #wrapper {
-  max-width: 70%;
+  max-width: 80%;
 }
 #left,
 #center,
 #right {
-  max-width: 33%;
+  max-width: 30%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -28,7 +28,9 @@ img {
 a{
     text-decoration: none;
     text-align: center;
-    color:black
+    color:black;
+    font-size: 15px;
+    padding-top: 10px;
 }
 #line1,
 #line2 {
@@ -49,18 +51,8 @@ h1 {
 #line2{
     max-width: 100%;
 }
-#left:hover{
+#center:hover, #right:hover, #left:hover{
     border:2px solid rgb(242, 169, 169);
-    border-radius: 10px;
-}
-#center:hover{
-    border:2px solid rgb(242, 169, 169);
-    border-radius: 10px;
-}
-#right:hover {
-    border:2px solid rgb(242, 169, 169);
-    border-radius: 10px;
-}
-#right:hover> img{
-    width: 120%;
+    border-radius: 7px;
+    background-color: rgb(252, 243, 243) ;
 }
