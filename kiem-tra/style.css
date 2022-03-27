@@ -27,6 +27,7 @@ img {
   flex-direction: column;
   padding: 10px;
   padding:10px;
+  border:0px solid rgba(255, 84, 84, 0.522);
   transition: all 0.4s ease-in-out;
 }
 a{
