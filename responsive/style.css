@@ -47,7 +47,7 @@ h3{
         width: 45%;
     }
 }
-@media only screen and (max-width: 550px){
+@media only screen and (max-width: 780px){
     #menu{
         width: 90%;
     }
