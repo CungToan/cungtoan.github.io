@@ -21,13 +21,14 @@ body{
     display:flex;
     align-items: center;
     flex-direction: column;
-    border: 2px solid rgba(219, 38, 38, 0.593);
+    border-top: 4px solid rgba(219, 38, 38, 0.549);
+    border-right: 5px solid rgba(219, 38, 38, 0.549);
     border-radius: 10px;
     padding-top: 40px;
     margin: 7px;
 }
 img{
-    max-width: 70%;
+    max-width: 80%;
     height: 200px;
    
 }
