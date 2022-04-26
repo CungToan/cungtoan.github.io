@@ -39,3 +39,14 @@ form:hover #ip-box,form:valid #ip-box{
     padding: 10px 10px;
     width: 230px;
 }
+@media only screen and (max-width;1000px){
+
+
+  @media only screen and (max-width: 550px) {
+    .contain {
+        grid-template-columns: 1fr;
+    }
+    .flower {
+        height: 400px;
+    }
+}
