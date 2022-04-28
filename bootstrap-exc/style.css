@@ -64,7 +64,6 @@ img{
 
 @media (min-width:992px){
     .col-3{
-        display: block;
+        display: block
     }
 }
-
