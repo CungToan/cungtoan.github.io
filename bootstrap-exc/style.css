@@ -14,8 +14,8 @@
 .form-check-label{
     font-size: 12px
 }
-h6{
-    color:rgb(249, 55, 55);
+#note{
+    color:rgb(213, 230, 241);
 }
 .foot-text{ 
     color:rgba(255, 255, 255, 0.765);
@@ -41,3 +41,30 @@ i{
 .col-8{
     padding-top:5px;
 }
+.card{
+    height: 100%;
+    
+}
+img{
+    height:127px;
+}
+.col-3{
+    display:none;
+}
+#note-text{
+    color:aliceblue
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255, 255, 255);
+}
+.menubar {
+    background-color: #30598c;
+}
+
+
+@media (min-width:992px){
+    .col-3{
+        display: block;
+    }
+}
+
