@@ -1,0 +1,43 @@
+
+#sidebar{
+    border-bottom: 1px solid rgb(221, 221, 221);
+    padding-top: 10px;
+}
+#sidebar2{
+
+    padding-top: 10px;
+}
+#boxsearch{
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+.form-check-label{
+    font-size: 12px
+}
+h6{
+    color:rgb(249, 55, 55);
+}
+.foot-text{ 
+    color:rgba(255, 255, 255, 0.765);
+    font-size: 13px;
+}
+#foot{
+    padding:15px 15px;
+    margin-top: 10px;
+}
+p{
+    color:rgb(56, 56, 56);
+    font-size: 14px;
+}
+#navmenu{
+background-color: #30598c
+}
+i{
+    font-size: 12px;
+}
+.star-vote{
+    font-size: 12px;
+}
+.col-8{
+    padding-top:5px
+}

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>techmaster</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="menubar">
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Techmaster</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Lộ trình
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Web frontend + React.Js</a></li>
+                  <li><a class="dropdown-item" href="#">Java Spring Boot Fullstack</a></li>
+                  <li><a class="dropdown-item" href="#">DevOps</a></li>
+                  <li><a class="dropdown-item" href="#">Apple iOS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Doanh nghiệp</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Khóa học
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Onlab</a></li>
+                  <li><a class="dropdown-item" href="#">Trực tuyến</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sản phẩm học viên</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Khai giảng</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Blog</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Trải nghiệm</a>
+                  </li>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Chúng tôi
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Trung tâm</a></li>
+                  <li><a class="dropdown-item" href="#">Quy định chung</a></li>
+                  <li><a class="dropdown-item" href="#">Giảng viên</a></li>
+                  <li><a class="dropdown-item" href="#">Hướng dẫn đăng ký học</a></li>
+                </ul>
+              </li>
+            </ul>
+           
+          </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+        <div class="row">
+          <div class="col-3">
+            <div class="container gx-5">
+                <div class="row align-items-start" id="sidebar">
+                  <div class="col">
+                      <h6>Đối tượng người học</h6>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Doanh nghiệp
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Lớp tối
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Thiếu nhi
+                        </label>
+                      </div>
+                      <div class="form-check"  style="padding-bottom:60px">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                          Học từ đầu
+                        </label>
+                      </div>
+                  </div>
+                  
+                </div>
+                <div class="row align-items-center" id="sidebar2">
+                  <div class="col">
+                   <h6>Chủ đề</h6>
+                   <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Web frontend
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Di động
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Web backend
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Big data, Ai
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                    <label class="form-check-label" for="flexRadioDefault1">
+                      Kiểm thử
+                    </label>
+                  </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
+          <div class="col-9">
+            <div class="container">
+                
+                <div>
+                    <div class="container">
+                        <div class="row" id="boxsearch">
+                          <div class="col">
+                          </div>
+                          <div class="col-6">
+                            <form class="d-flex">
+                                <input class="form-control me-2" type="search" placeholder="Tìm kiếm khóa học" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                              </form>
+                          </div>
+                        
+                        </div>
+                      </div>
+                   
+                    <div class="row gx-2 gy-2">
+                        <div class="col-md-6 col-lg-4">
+                          <div class="card" style="width: 11rem;">
+                              <img src="image/clone01.jpg" class="card-img-top" alt="HTML5 css">
+                              <div class="card-body">
+                                <h6 class="card-title">Web căn bản (HTML, CSS) trực tuyến có tương tác</h6>
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="col-8">
+                                      <p>Trực tuyến</p>
+                                    </div>
+                                    <div class="col">
+                                      <span class="star-vote">5</span>
+                                      <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 ">
+                          <div class="card" style="width: 11rem;">
+                              <img src="image/clone02.jpg" class="card-img-top" alt="javascrip căn bản">
+                              <div class="card-body">
+                                <h6 class="card-title">Javascrip căn bản - Tổng hợp 12 game huyền thoại</h6>
+                                <div class="container ">
+                                  <div class="row">
+                                    <div class="col-8">
+                                      <p>Trực tuyến</p>
+                                    </div>
+                                    <div class="col">
+                                      <span class="star-vote">5</span>
+                                      <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                          <div class="card" style="width: 11rem;">
+                              <img src="image/clone03.png" class="card-img-top" alt="Lập trình NodeJs">
+                              <div class="card-body">
+                                <h6 class="card-title">Lập trình NodeJs (cập nhật 2022)</h6>
+                                <div class="container">
+                                  <div class="row">
+                                    <div class="col-8">
+                                      <p>Trực tuyến</p>
+                                    </div>
+                                    <div class="col">
+                                      <span class="star-vote">5</span>
+                                      <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card" style="width: 11rem;">
+                                <img src="image/clone04.jpg" class="card-img-top" alt="Lập trình di động đa nền tảng React Native Online">
+                                <div class="card-body">
+                                  <h6 class="card-title">Lập trình di động đa nền tảng React Native Online (cập nhật 2022)</h6>
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        <p>Trực tuyến</p>
+                                      </div>
+                                      <div class="col">
+                                        <span class="star-vote">5</span>
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card" style="width: 11rem;">
+                                <img src="image/clone05.jpg" class="card-img-top" alt="Lập trình di động IOS Swift online">
+                                <div class="card-body">
+                                  <h6 class="card-title">Lập trình di động IOS Swift online</h6>
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-8">
+                                        <p>Trực tuyến</p>
+                                      </div>
+                                      <div class="col">
+                                        <span class="star-vote">5</span>
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card" style="width: 11rem;">
+                                <img src="image/clone06.jpg" class="card-img-top" alt="PYTHON cơ bản cho nghề PHÂN TÍCH DỮ LIỆU">
+                                <div class="card-body">
+                                  <h6 class="card-title">PYTHON cơ bản cho nghề PHÂN TÍCH DỮ LIỆU</h6>
+                                  <div class="container">
+                                    <div class="row">
+                                      <div class="col-8x">
+                                        <p>Trực tuyến</p>
+                                      </div>
+                                      <div class="col">
+                                        <span class="star-vote">5</span>
+                                        <i class="fa-solid fa-star" style="color:rgb(255, 238, 0)"></i>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="container-12 bg-dark" id="foot">
+        <div class="row">
+          <div class="col">
+            <h6>Chủ sở hữu website</h6>
+            <p>Công ty TNHH TechMaster Vietnam Ltd</p>
+            <p>Số ĐKDN: 0105392153</p>
+          </div>
+          <div class="col">
+            <h6>Giới thiệu</h6>
+            <p>Học viện CNTT TechMaster</p>
+            <p>Giảng viên</p>
+          </div>
+          <div class="col">
+            <h6>Tư vấn tuyển sinh</h6>
+            <p>Phạm Thị Mẫn - 0963023185</p>
+            <p>Nguyễn Thanh Hương - 0382416368</p>
+          </div>
+          <div class="col">
+            <h6>Địa chỉ</h6>
+            <p> Tầng 12A, tòa nhà Viwaseen Tower, số 48, Tố Hữu, Lê Văn Lương kéo dài, Hà Nội</p>
+          </div>
+        </div>
+      </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
