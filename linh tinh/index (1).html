@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <p id="param-1" class="text">
+      Cung Toan
+    </p>
+    <p id="param-2" class="text">
+      Cung Duc Toan
+    </p>
+    <p id="param-3" class="text">
+      Cung Duc Toan12
+    </p>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      // 1.
+      function changeColor(){
+        $('#param-1').css('color', 'blue');
+        $('#param-2').css('color', 'yellow');
+        $('#param-3').css('color', 'red');
+      }
+      changeColor()
+      // 2.
+      function changeBgColor(color){
+        $('body').css('background-color',color)
+      }
+      changeBgColor("#002d3f")
+      // 3.
+      function copyContent(paragraph1, paragraph2){
+        let paramOne = $($('.text')[paragraph1 - 1]);
+        let paramTwo = $($('.text')[paragraph2 - 1]);
+          $(paramOne).text(paramTwo.text())
+      }
+      copyContent(1, 2)
+      // 4.
+      function changeFontSize(x){
+        $('.text').css('font-size', x)
+      }
+      changeFontSize(20);
+
+      // 5.
+      function increaseFontSize(paragraph){
+        let fontSize = parseInt($('.text').css('font-size'));
+        let targetText = $('.text')[paragraph-1];
+       
+       if(fontSize < 30){
+        fontSize = fontSize + 1 + 'px';
+        $(targetText).css('font-size',fontSize)
+       }
+      }
+      
+      increaseFontSize(1)
+
+      // 6.
+      function decreaseFontSize(paragraph){
+        let fontSize = parseInt($('.text').css('font-size'));
+        let targetText = $('.text')[paragraph-1];
+        
+       if( fontSize >10){
+        fontSize = fontSize - 1 + 'px';
+        $(targetText).css('font-size',fontSize)
+       }
+      }
+      decreaseFontSize(3)
+      
+    </script>
+  </body>
+</html>

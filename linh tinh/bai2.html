@@ -6,14 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
+
   <body>
+    <div>
+      <input id="input" />
+      <button id ="btn">Add value</button>
+    </div>
     <script>
-   function bai1(rdNumber){
-     if(rdNumber =Number){
-      let ketQua= rdNumber **2;
-     }
-    }
-      alert(ketQua);
+        function addSth(){
+            document.getElementById('input').value = "Cung Duc Toan";
+        }
+        document.getElementById('btn').onclick = addSth;
     </script>
   </body>
 </html>

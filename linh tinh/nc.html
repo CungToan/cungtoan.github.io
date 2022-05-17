@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        max-width: 100%;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+      }
+      #box {
+        height: 100px;
+        width: 100px;
+        border: 1px solid blue;
+        margin: 30px;
+      }
+      #wrapper {
+        max-width: 80%;
+        display: flex;
+        align-items: center;
+      }
+      #btn {
+        width: 100px;
+        height: 40px;
+        background-color: rgb(61, 89, 231);
+        border: 1px solid rgb(237, 249, 105);
+        border-radius: 5px;
+        color: aliceblue;
+        cursor: pointer;
+      }
+      #box {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      #numb1,
+      #numb2,
+      span {
+        font-size: 30px;
+      }
+      #input {
+        max-width: 80%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      #input {
+        height: 100px;
+        width: 100px;
+        margin: 30px;
+        border: 1px solid blue;
+        font-size: 27px;
+      }
+      #btn:hover {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="box">
+        <p id="numb1">1</p>
+      </div>
+      <span>+</span>
+      <div id="box">
+        <p id="numb2"></p>
+      </div>
+      <span>=</span>
+      <input id="input" />
+      <button id="btn">Kiểm tra</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+      function rdNumber() {
+        let rdNumb1 = $("#numb1");
+        let rdNumb2 = $("#numb2");
+        $(rdNumb1).text(parseInt(Math.random() * 10));
+        $(rdNumb2).text(parseInt(Math.random() * 10));
+      }
+      $("#numb1").onload = rdNumber();
+    //   $("#numb1").load(rdNumber());
+    // Cho mình hỏi tại sao ở đây mình dùng load() thì function rd vẫn chạy được nhưng function bên dưới của mình lại ko chạy nữa nhỉ. 
+
+      function reloadPage() {
+        rdNumber();
+        $('#input').val('');
+      }
+
+
+      $("#btn").click(function checkResult() {
+        let rdNumb1 = parseInt($("#numb1").text());
+        let rdNumb2 = parseInt($("#numb2").text());
+        let funcResult = parseInt($("#input").val());
+        if (rdNumb1 + rdNumb2 == funcResult) {
+          alert("true");
+          reloadPage();
+        } else {
+          alert("false");
+        }
+      });
+    </script>
+  </body>
+</html>

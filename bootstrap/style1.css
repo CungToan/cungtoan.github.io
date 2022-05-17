@@ -1,0 +1,28 @@
+.header{
+    height: 50px;
+    background-color:antiquewhite;
+}
+.row{
+    background-color: rgb(119, 188, 231);
+}
+.components{
+    margin-bottom: 24px;
+}
+@media only screen and (min-width:992px) {
+   
+    .components:nth-child(1),.components:nth-child(4),.components:nth-child(7){
+        padding-left: 0px;
+    }
+    .components:nth-child(7),.components:nth-child(8),.components:nth-child(9){
+        margin-bottom: 0px;
+    }
+    .components:nth-child(3),.components:nth-child(6),.components:nth-child(9){
+        padding-right: 0px;
+    }
+}
+@media only screen (max-width:992px) and  (min-width:576px){
+    .components{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

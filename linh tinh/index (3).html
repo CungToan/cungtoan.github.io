@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Bài 3</h1>
+<!--
+Hãy get các element sau:
+1. Element table với id="age-table".
+2. Tất cả element label trong table.
+3. Element td đầu tiên trong table (element có nội dung là Độ tuổi:)
+4. Element form với name="search"
+5. Element input đầu tiên trong form
+6. Element input cuối cùng trong form
+-->
+  <form name="search">
+    <label>Bạn đang tìm gì:
+      <input type="text" name="search">
+    </label>
+    <input type="submit" value="Tìm kiếm!">
+  </form>
+
+  <hr>
+
+  <form name="search-person">
+    Tìm kiếm nâng cao:
+    <table id="age-table">
+      <tbody>
+        <tr>
+          <td>Độ tuổi:</td>
+          <td id="age-list">
+            <label>
+              <input type="radio" name="age" value="young">Nhỏ hơn 18</label>
+            <label>
+              <input type="radio" name="age" value="mature">18-50</label>
+            <label>
+              <input type="radio" name="age" value="senior">Lớn hơn 50</label>
+          </td>
+        </tr>
+
+        <tr>
+          <td>Điều kiện đi kèm:</td>
+          <td>
+            <input type="text" name="info[0]">
+            <input type="text" name="info[1]">
+            <input type="text" name="info[2]">
+          </td>
+        </tr>
+
+      </tbody>
+    </table>
+
+    <input type="submit" value="Tìm kiếm!">
+  </form>
+<script>
+  // 1. Element table với id="age-table".
+  document.getElementById('age-table');
+  // 2. Tất cả element label trong table.
+  document.querySelectorAll('table label')
+  // 3. Element td đầu tiên trong table (element có nội dung là Độ tuổi:)
+  document.querySelector('table td');
+  // 4. Element form với name="search"
+  document.querySelector('form');
+  // Element input đầu tiên trong form
+  document.querySelector('form input');
+  // 6. Element input cuối cùng trong form
+  document.getElementsByTagName('input')[document.getElementsByTagName('input').length -1]
+</script>
+</body>
+
+</html>

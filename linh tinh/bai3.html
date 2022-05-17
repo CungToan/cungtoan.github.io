@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      #change-my-color {
+        width: 200px;
+        height: 200px;
+        border: 1px solid black;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <p>Nhập tên màu vào ô input, ví dụ: red, blue, black, ...</p>
+      <input id="input" />
+      <div id="change-my-color"></div>
+    </div>
+    <script>
+        function changeColor(){
+            let colorName = document.getElementById('input').value;
+            document.getElementById('change-my-color').style.backgroundColor = `${colorName}`;
+        }
+        document.getElementById('input').onchange = changeColor;
+    </script>
+  </body>
+</html>

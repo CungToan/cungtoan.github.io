@@ -1,0 +1,34 @@
+#logo{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+.navbar{
+    height: 60px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+#content{
+    background-color: blue;
+    height: 200px;
+}
+@media only screen and (max-width:768px){
+    #content{
+        margin-bottom: 12px;
+    }
+    #logo{
+        height: 20px;
+        width: 80px;
+    }
+}
+@media only screen and (max-width:576px){
+    .navbar-toggler{
+        position: relative;
+        left:-80%
+    }
+    #logo{
+        position: relative;
+        left: calc(50% - 40px);
+    }
+}

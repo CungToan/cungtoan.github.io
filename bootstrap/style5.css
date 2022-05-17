@@ -1,0 +1,25 @@
+#logo{
+    width: 100px;
+    height: 30px;
+    background-color: blue;
+}
+.navbar{
+    height: 60px;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+#maincontent{
+    height: 300px;
+    background-color: blue;
+}
+@media only screen and (max-width:576px){
+    #logo{
+        display: none;
+    }
+}
+@media only screen and (min-width:576px){
+    .main{
+        display: none;
+    }
+}
