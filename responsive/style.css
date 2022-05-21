@@ -17,7 +17,11 @@ body{
     align-items: center;
 }
 #menu{
-    width: 30%;
+    /* Ở đây dùng width cũng không sai nhé anh, nhưng có thể dùng thuộc tính này để set kích thước cho thẻ khi dùng với flex
+    cách viết flex: 30% tương đương với flex-basis: 30%,
+    anh xem thêm ở đây nhé: https://developer.mozilla.org/en-US/docs/Web/CSS/flex-basis
+    */
+    flex: 30%;
     display:flex;
     align-items: center;
     flex-direction: column;
@@ -45,11 +49,11 @@ h3{
 
 @media only screen and (max-width: 1100px){
     #menu{
-        width: 45%;
+        flex: 45%;
     }
 }
 @media only screen and (max-width: 780px){
     #menu{
-        width: 90%;
+        flex: 90%;
     }
 }
