@@ -8,7 +8,7 @@ function backgroundDefault(){
     document.body.style.backgroundColor = '#fff';
 }
 function overlayBg(){
-    document.body.style.backgroundColor = 'rgba(0,0,0,0.4)';
+    document.body.style.backgroundColor = 'rgba(0,0,0,0.5)';
 }
 function activeBox(){
     modalBox.classList.add('activeModalBox');
