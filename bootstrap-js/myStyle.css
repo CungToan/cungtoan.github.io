@@ -10,7 +10,23 @@ body{
     display: block;
 
 }
+.bg-overlay{
+    content:'';
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: none;
+}
 
+.bg-overlay.activeOverlay{
+    display: block;
+}
 .launch-btn{
     width: 200px;
     height: 40px;
