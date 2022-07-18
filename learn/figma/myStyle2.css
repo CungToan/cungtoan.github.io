@@ -1,0 +1,949 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400&family=Taviraj&display=swap');
+
+body{
+    width: 100%;
+    box-sizing: border-box;
+}
+#wrapper{
+    max-width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin: 0 auto;
+
+}
+.menu-bar{
+    width: 94%;
+    margin: 0 auto;
+    padding-bottom: 50px;
+ 
+    
+}
+.d-flex button{
+    border:none;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 10px;
+}
+.d-flex button i{
+    padding-right: 5px;
+    font-size: 20px;
+}
+.cart-wrap{
+    background-color: #fab1a0;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cart-wrap i{
+    font-size: 16px;
+    color:#2d3436
+}
+.search-icon{
+    margin:0 6px
+}
+.search-icon i{
+    font-size: 18px;
+   
+}
+.container-fluid{
+    display: flex;
+    justify-content: space-around;
+}
+
+.me-auto {
+    margin: auto!important;
+}
+
+.pages{
+    width: 90%;
+    background-color: #F1DDC9;
+}
+.carousel-item{
+    margin:50px
+}
+.first-title{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: 0.02em;
+    width: 70%;
+    padding: 56px 0 0 0;
+}
+
+.btn-outline-success{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+}
+.nav-item .active{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0.02em;
+}
+
+.first-content{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.03em;
+padding: 20px 0;
+
+}
+
+.discover{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 27px;
+letter-spacing: 0.03em;
+}
+.slice-main-content{
+    display:flex;
+    flex-direction: column;
+    
+}
+button.cart{
+    width: 208px;
+    height: 62px;
+    background: #D84727;
+    outline: none;
+    border:none;
+    border-radius: 4px;
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 34px;
+letter-spacing: 0.02em;
+color: #fff;
+
+}
+button.cicil{
+    width: 140px;
+height: 62px;
+background-color: #F1DDC9;
+outline: none;
+border: 2px solid #D84727;
+border-radius: 4px;
+color:#D84727;
+}
+
+.slice-picture img{
+    position: absolute;
+    top:30px;
+}
+
+.trending-items{
+    margin-top:200px;
+}
+.trending-items-title{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 32px;
+letter-spacing: 0.03em;
+}
+.trending-item{
+    display: flex;
+    flex-direction: column;
+}
+.trending-items-title .spe{
+    font-weight: 500;
+}
+.trending-item-image{
+    width: 60%;
+    height: auto;
+    position: relative;
+    top:0px;
+    left:160px
+    
+}
+
+.trending-item-image-watches{
+    width: 30%;
+    height: auto;
+    position: relative;
+    top:-30px;
+    left:240px
+}
+
+.monthly-deals-banner{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+border-bottom: 3px solid lightgrey;
+margin: 100px 50px;
+}
+
+.monthly-deals{
+    margin-top: 50px;
+
+}
+.monthly-deals-image{
+    max-width: 100%;
+    height:  290px;
+    
+}
+.monthly-deals-item{
+    display: flex;
+    flex-direction: column;
+}
+.monthly-deals-items-name{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+}
+.monthly-deals-sale-off{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #777777;
+}
+
+.monthly-deals-price{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #777777;
+text-decoration: line-through red;
+}
+
+.monthly-deals-sale-price{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+}
+
+.recent-news-banner{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+    margin-bottom: 100px;
+    margin-left: 50px;
+}
+.recent-news{
+    margin-top: 100px;
+}
+
+.recent-news-image{
+    box-shadow: 200px -50px 0 0 #F1DDC9 ;
+    max-height: 500px;
+    overflow: hidden;
+
+}
+
+button.recent-news-discover{
+    width: 160px;
+    height: 58px;
+    outline: none;
+    border: 2px solid #D84727;
+    background-color: #fff;
+    color:#D84727;
+
+}
+
+.recent-news-content{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.recent-news-title{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0.02em;
+color: #777777;
+margin-bottom: 10px;
+}
+
+.recent-news-text{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 48px;
+letter-spacing: 0.02em;
+margin-bottom: 50px;
+}
+
+.watches-gallery{
+    margin-top:50px;
+    
+}
+
+
+.watches-gallery-tag{
+font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.02em;
+
+}
+.watches-gallery-item-img-form{
+    background-color: #F1DDC9;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.watches-gallery-item{
+    margin: 30px 0;
+}
+.watches-gallery-items{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.watches-gallery-item-name{
+    
+font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+/* or 133% */
+
+letter-spacing: 0.02em;
+}
+
+.watches-gallery-item-price{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 40px;
+/* identical to box height, or 143% */
+
+letter-spacing: 0.02em;
+}
+
+.watches-gallery-item-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.watches-gallery-more-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watches-gallery-more-items button{
+    width: 272px;
+    height: 66px;
+    border: 1px solid #D84727;
+    background-color: #fff;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.03em;
+    color: #D84727;
+    border-radius: 5px;
+    margin-bottom: 50px;
+}
+
+.testimonials{
+    margin-top:50px;
+    margin-bottom: 50px;
+
+}
+
+.testimonials-img-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonials-img-form img{
+    box-shadow: -100px -50px 0 0  #F1DDC9;
+}
+
+.testimonials-main-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials-title{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 40px;
+letter-spacing: 0.03em;
+padding-bottom: 30px;
+}
+
+.testimonials-content{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.03em;
+padding-bottom: 30px;
+}
+.underline{
+    height: 2px;
+    width: 120px;
+    background-color: lightgrey;
+    position: relative;
+    top:-25px;
+    left:5px;
+}
+
+.testimonials-writer{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+}
+
+.testimonials-writer-job{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 32px;
+}
+
+#footer{
+    width: 1440px;
+height: 273px;
+background: #DA5E42;
+margin-top:auto;
+width: 100%;
+}
+/* breadrumb */
+
+.breadcrumb{
+    margin-bottom: 60px;
+}
+/* product details box css */
+.side-img-bar{
+    display: flex;
+    flex-direction: column;
+    
+}
+.side-img-bar img{
+    max-width: 70px;
+;
+}
+
+.product-quantity{
+    display: flex;
+    align-items: center;
+}
+
+.product-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-price-before-sale{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-decoration: line-through red;
+color: #777777;
+padding-bottom: 10px;
+}
+.product-name{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 60px;
+line-height: 80px;
+letter-spacing: 0.02em;
+padding-bottom: 10px;
+}
+
+.product-price{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 41px;
+    padding-bottom: 10px;
+}
+
+button.decrease, button.increase{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #777777;
+    color:#777777;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin:10px;
+}
+
+.product-quantity .increase{
+    background-color: #D84727;
+    color: #fff;
+}
+
+.product-quantity-numb{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 61px;
+letter-spacing: 0.02em;
+}
+
+.product-cart{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.product-footer{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.add-to-cart{
+    min-width: 150px;
+    height: 64px;
+    background: #D84727;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.add-to-cart i {
+    padding-right: 10px;
+}
+
+.product-footer .cicils{
+    max-width: 140px;
+    height: 62px;
+    border: 2px solid #D84727;
+    background-color: #fff;
+}
+
+
+/* product introduce */
+
+#product-info-title{
+    box-shadow:  0 1px 0 0 lightgrey;
+}
+#product-info-title ul{
+    display: flex;
+    align-items: center;
+}
+#product-info-title ul{
+list-style: none;
+}
+
+#product-info-title ul li{
+    
+    padding: 15px 30px 15px 0px;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    cursor: pointer;
+    transition:all 0.3s ease;
+}
+
+#product-main-content .title{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    padding-bottom: 10px;
+    letter-spacing: 0.02em;
+}
+
+#product-main-content .text{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+#product-main-content .img{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+.main-bar-img{
+    max-width: 100%;
+}
+#wrap{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#product-info-title ul li:hover{
+    color:#D84727;
+}
+.img img{
+    max-width: 100%;
+}
+#relate-product{
+    margin-bottom: 50px;
+}
+
+.relate-product-item .sale-off{
+    width: 70px;
+    height: 34px;
+    background-color: #D84727;
+    color:#fff;
+    position: relative;
+    top:10px;
+    left:170px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border:none;
+    border-radius: 5px;
+}
+
+.relate-product-item .hidden{
+    width: 70px;
+    height: 34px;
+}
+
+.relate-product-item .new-arrival{
+    width: 70px;
+    height: 34px;
+    background-color: #01522D;
+    color:#fff;
+    position: relative;
+    top:10px;
+    left:170px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+    border:none;
+    border-radius: 5px;
+}
+
+.relate-product-title{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 40px;
+    border-bottom: 1px solid #777777;
+}
+
+.relate-product-cnt{
+    margin-top: 20px;
+}
+.relate-product-item{
+    display: flex;
+    flex-direction: column;
+}
+.relate-product-name{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+.relate-product-bf-sale{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #777777;
+    text-decoration: line-through #D93F3F;
+}
+
+.relate-product-at-sale{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: auto;
+}
+.modal-body{
+    margin-top: 10px;
+}
+.modal-dialog{
+    max-width: 80%;
+    height: auto;
+}
+.add-to-cart-btn{
+
+}
+.product-img{
+    max-width: 100%;
+}
+.product-item-info{
+    display: flex;
+    flex-direction: column;
+}
+.product-item-name{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+.product-item-price-before-sale{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;   
+    color: #777777;
+    text-decoration: line-through 1px red;
+}
+.product-item-real-price{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.product-item-node{
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    color: #555555;
+
+}
+.product-item-custom{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.product-item-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F1DDC9;
+}
+.product-item-pic img{
+    max-width: 100%;
+}
+.product-price-calc{
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.product-select-packaging{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0;
+}
+.form-select{
+    width: 60%;
+    height: 40px;
+}
+.product-form-select{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+.product-price-calc button{
+    width: 30px;
+    height: 30px;
+    background: #D84727;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+
+}
+.product-item-prices{
+    font-family: 'Taviraj';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 32px;
+display: flex;
+justify-content: flex-end;
+}
+.garbage{
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border: 1px solid #D84727;
+    align-items: center;
+}
+.garbage i{
+    color:#D84727;
+    font-size: 15px;
+}
+.product-item-row{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.product-item-row:last-child{
+    border-bottom:none;
+}
+.product-count{
+    padding: 0 10px;
+    font-size: 20px;
+}
+.product-promo-value{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #01522D;
+    display: flex;
+    align-items: center;
+}
+.product-promo{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items:center;
+}
+.promo-input{
+    min-width: 50px;
+}
+.product-subtotal-title{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: flex;
+    align-items:center;
+    justify-content: flex-end;
+    
+    color: #333333;
+    
+}
+.subtotal-price{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+.subtotal-price-bf-sale{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #777777;
+    text-decoration: line-through 1px red;
+}
+.subtotal-price-after-sale{
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #333333;
+}
+.product-cart-checkout{
+    width: 100%;
+    height: 50px;
+    background-color: #D84727;
+    color: #fff;
+    font-family: 'Taviraj';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    border:none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.product-cart-checkout:hover{
+    background-color: #f25a38;
+}
+@media (max-width = 576px){
+    .more-or-less-item{
+        margin-bottom: 20px;
+    }
+    .product-item-prices{
+        margin-bottom: 10px;
+    }
+
+}

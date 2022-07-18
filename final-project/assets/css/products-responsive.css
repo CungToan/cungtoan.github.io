@@ -1,0 +1,30 @@
+@media only screen and (max-width:576px){
+    .header-container .row:first-child{
+        display: none;
+    }
+    .footer .row .col-md-3{
+        margin-top:10px;
+    }
+    .banner .row .col-md-5 p{
+        display: none;
+    }
+    .banner .row  .col-md-2{
+        background-position-y: -240px;
+    }
+}
+@media only screen and (min-width:577px) {
+    .header-container .row:last-child, .header-container nav.nav-bar{
+        display: none;
+    }
+    .header-container{
+        margin-top:5px;
+    }
+    .products-category .row{
+        height: 300px;
+    }
+    .banner{
+        height: 572px !important;
+        background-position-y: -170px;
+    }
+
+}

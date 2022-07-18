@@ -1,0 +1,5 @@
+@media only screen and (max-width:576px){
+ .login-form .row .col-md-5 img{
+    display: none;
+ }   
+}
