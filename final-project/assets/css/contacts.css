@@ -90,20 +90,32 @@ ul.navbar-nav li a.nav-link{
 
 /* contact main box */
 
-.container .row form {
+.container .row form .form-contacts{
     display: flex;
     flex-direction: column;
     margin: 10px 0;
 }
-.container .row form input{
+.container .row form .form-contacts input{
     outline: none;
-    border-radius: 4px;
-    border:1px solid #006266;
-    height: 35px;
 }
-.container .row form:nth-child(4) input{
-    height: 150px;
+.container .row form .form-contacts:nth-child(3) input{
+    height: 120px;
 }
+.container .row form .form-contacts:nth-child(4){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.container .row form .form-contacts:nth-child(4) input{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.container .row form .form-contacts:nth-child(4) p{
+    margin-bottom: 0;
+}
+
 .container .row form span{
     color:#F04336
 }

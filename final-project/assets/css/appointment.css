@@ -192,6 +192,7 @@ ul.navbar-nav li a.nav-link{
     height: auto;
     width: 100%;
     display: none;
+    transition: all 0.3s ease-in-out;
 }
 .calendar #noti-event.activeBox{
   display: block;
