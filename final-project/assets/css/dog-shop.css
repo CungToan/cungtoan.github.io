@@ -137,63 +137,63 @@ width: 100%;
     width: 80%;
 }
 /* search box */
-.dog-things .row .col-3 {
+.dog-things .row .col-md-3 {
     border-right: 1px solid rgb(219, 219, 219);
 }
 
-.dog-things .row .col-3 h5{
+.dog-things .row .col-md-3 h5{
     font-size: 24px;
 }
-.dog-things .row .col-3 .product-filter .filter-bar{
+.dog-things .row .col-md-3 .product-filter .filter-bar{
     display: flex;
     align-items: center;
     margin: 10px 0;
 
 }
-.dog-things .row .col-3 .product-filter .filter-bar div.dot{
+.dog-things .row .col-md-3 .product-filter .filter-bar div.dot{
     width: 12px;
     height: 12px;
     background-color:#006266;
     border-radius:   50%;
     cursor: pointer;
 }
-.dog-things .row .col-3 .product-filter .filter-bar .bar{
+.dog-things .row .col-md-3 .product-filter .filter-bar .bar{
     width: 90%;
     height: 3px;
     background-color:#006266;
 }
-.dog-things .row .col-3 .product-filter p span{
+.dog-things .row .col-md-3 .product-filter p span{
     font-size: 22px;
     font-weight: 500;
     color: #F04336;
 }
-.dog-things .row .col-3 .brands{
+.dog-things .row .col-md-3 .brands{
     margin-bottom: 30px;
 }
-.dog-things .row .col-3 .brands .brand input{
+.dog-things .row .col-md-3 .brands .brand input{
     width: 10px;
     height: 10px;
 }
-.dog-things .row .col-3 .brands .brand label{
+.dog-things .row .col-md-3 .brands .brand label{
     font-size: 14px;
     font-weight: 700;
 }
-.dog-things .row .col-3 .brands a{
+.dog-things .row .col-md-3 .brands a{
     font-size: 12px;
     text-decoration: none;
     font-weight: 700;
 }
-.dog-things .row .col-3 .category{
+.dog-things .row .col-md-3 .category{
     margin-bottom: 30px;
 }
-.dog-things .row .col-3 .category .category-tab{
+.dog-things .row .col-md-3 .category .category-tab{
     width: 100%;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
     padding: 0 10px;
     border-radius: 8px;
     margin-bottom: 10px;
 }
-.dog-things .row .col-3 .category .category-tab span{
+.dog-things .row .col-md-3 .category .category-tab span{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -203,25 +203,25 @@ width: 100%;
     font-size: 22px;
     font-weight: 700;
 }
-.dog-things .row .col-3 .category .category-tab:hover{
+.dog-things .row .col-md-3 .category .category-tab:hover{
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.35);
 }
-.dog-things .row .col-3 .category .category-tab:hover span{
+.dog-things .row .col-md-3 .category .category-tab:hover span{
     color:#F04336
 }
-.dog-things .row .col-3 .category .category-tab ul{
+.dog-things .row .col-md-3 .category .category-tab ul{
     width: 100%;
     padding-left: 0;
     display: none;
 }
-.dog-things .row .col-3 .category .category-tab ul.activeBox{
+.dog-things .row .col-md-3 .category .category-tab ul.activeBox{
     display: block;
 }
-.dog-things .row .col-3 .category .category-tab ul li{
+.dog-things .row .col-md-3 .category .category-tab ul li{
     list-style: none;
     cursor: pointer;
 }
-.dog-things .row .col-3 .category .category-tab ul li:hover{
+.dog-things .row .col-md-3 .category .category-tab ul li:hover{
     color:#006266;
     font-weight: 700;
 }
@@ -448,3 +448,19 @@ margin-top: 30px
     font-weight: 500;
 }
 
+
+/* responsive */
+@media only screen and (max-width:576px){
+  .banner{
+    background-position-y: 0;
+    height: 300px;
+
+  }
+  .banner .row .col-md-5{
+    padding-left: 50px;
+  }
+  .dog-things .row .col-md-9 .sort-box .sort-tab{
+    width: 70%;
+  }
+
+}

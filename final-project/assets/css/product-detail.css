@@ -133,37 +133,56 @@ ul.navbar-nav li a.nav-link{
     cursor: pointer;
     transition: all 0.3s ease-in-out;
 }
-.container .row .col-md-6:nth-child(2) .size span:hover{
-    font-size: 14px;
-}
-.container .row .col-md-6:nth-child(2) .size span:hover{
+.container .row .col-md-6:nth-child(2) .size span:focus{
     border: none;
     background-color:#006266;
     color:#fff;
+    font-size: 14px;
+}
+.container .row .col-md-6:nth-child(2) .size span:hover {
+    border: none;
+    background-color:#006266;
+    color:#fff;
+    font-size: 14px;
 }
 .container .row .col-md-6:nth-child(2) .product-footer{
     display: flex;
     margin: 20px 0;
+    flex-direction: column;
 }
 .container .row .col-md-6:nth-child(2) .product-footer .wishlist{
-    margin-right: 50px;
-    background-color: #006266;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}   
+.container .row .col-md-6:nth-child(2) .product-footer .wishlist .icon-wrap{
     width: 40px;
     height: 40px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    border-radius: 4px;
-    color:#fff;
+    justify-content: center;
+    border: 1px solid gray;
+    border-radius: 100%;
+    color:rgb(93, 93, 93);
+    margin-right: 6px;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+}   
+.container .row .col-md-6:nth-child(2) .product-footer .wishlist .icon-wrap i{
+    font-size: 16px;
 }
-.container .row .col-md-6:nth-child(2) .product-footer .wishlist:hover{
-    background-color: #009a9f;
+.container .row .col-md-6:nth-child(2) .product-footer .wishlist .icon-wrap:hover{
+    background-color: #F04336;
+    border:none;
+    color:#fff;
+
 }
 .container .row .col-md-6:nth-child(2) .product-footer .add-btn{
-    width: fit-content;
-    padding: 4px 15px;
+    width: 40%;
+    padding: 5px 30px;
     height: 40px;
     border:none;
     outline: none;
@@ -171,6 +190,12 @@ ul.navbar-nav li a.nav-link{
     background-color: #F04336;
     color:#fff;
     transition: all 0.3s ease-in-out;
+}
+.container .row .col-md-6:nth-child(2) .product-footer .add-btn:first-child{
+    background-color: #006266;
+}
+.container .row .col-md-6:nth-child(2) .product-footer .add-btn:first-child:hover{
+    background-color: #004042;
 }
 .container .row .col-md-6:nth-child(2) .product-footer .add-btn:last-child{
     margin-left: 10px;

@@ -11,6 +11,8 @@
     .banner .row  .col-md-2{
         background-position-y: -240px;
     }
+
+
 }
 @media only screen and (min-width:577px) {
     .header-container .row:last-child, .header-container nav.nav-bar{

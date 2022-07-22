@@ -8,6 +8,10 @@
     .header-container{
         margin: 0;
     }
+    .container .row .col-md-6:nth-child(2) .product-footer button{
+        font-size: 14px;
+        width: 46% !important;
+    }
 }
 @media only screen and (min-width:577px) {
     .header-container .row:last-child, .header-container nav.nav-bar{
