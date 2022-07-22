@@ -168,7 +168,7 @@ ul.navbar-nav li a.nav-link{
 .dates button .time{
     font-size: 18px;
 }
-.dates button.avail-oppointment{
+.dates button#avail-oppointnent{
     box-shadow:inset 0px 0px 0px 2px #006266;
     cursor: pointer;
     transition: all 0.4 ease;
@@ -179,10 +179,10 @@ ul.navbar-nav li a.nav-link{
 .dates button:hover{
     
 }
-.dates button.avail-oppointment:hover{
+.dates button#avail-oppointnent:hover{
     color: #fff;
 }
-.dates button.avail-oppointment:focus{
+.dates button#avail-oppointnent:focus{
     background:#006266;
     color:#fff;
     font-weight:600;

@@ -1,4 +1,4 @@
-const availDay = document.querySelector('.avail-oppointment');
+const availDay = document.getElementById('avail-oppointnent');
 const notiBox = document.getElementById('noti-event');
 
 function activeBox(){
