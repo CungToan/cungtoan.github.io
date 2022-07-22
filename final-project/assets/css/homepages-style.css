@@ -50,7 +50,7 @@ body{
     align-items: center;
 }
 .header-container .col-md-2:last-child .btn{
-    border: 1px solid #F04336;
+    background-color: #ffeae9;
     margin-right: 20px;
     height: 40px;
     font-size: 16px;
@@ -111,8 +111,11 @@ ul.navbar-nav li a.nav-link{
     background-color: #F04336;
     color: #fff;
     border-radius: 4px;
+    transition: all 0.3s ease-in-out;
 }
-
+.banner-box .shopping-banner .banner-content button:hover{
+    background-color: #ff1100;
+}
 /* homepages mainbox */
 .card-container{
     width: 100% ;
@@ -137,13 +140,17 @@ ul.navbar-nav li a.nav-link{
 .card-container .row .col-4 img{
     transition: all 0.3s ease;
 }
-.card-container .row .col-4 img:hover{
+.card-container .row .col-4:hover img{
     transform: scale(0.9);
 }
 .card-container .row .col-4 .btn{
     background-color: #F04336;
     color:#fff;
-
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+.card-container .row .col-4 .btn:hover{
+    background-color: #ff1100;
 }
 .card-container .row .col-4 .card-body{
     padding:10px 0;
@@ -323,7 +330,7 @@ margin-top: 30px
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 .footer .row .col-md-3 p{
@@ -334,6 +341,7 @@ margin-top: 30px
 .footer .row .col-md-3 ul{
     list-style: none;
     padding-left:0;
+
 }
 .footer .row .col-md-3 ul li{
     color: #fff;

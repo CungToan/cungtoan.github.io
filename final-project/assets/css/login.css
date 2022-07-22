@@ -15,7 +15,7 @@ body{
 
 /* login-box */
 .login-form{
-    width: 70%;
+    width: 50%;
     padding: 30px;
     height: auto;
     background-color: #fff;
@@ -78,6 +78,9 @@ body{
 .login-form .row .col-md-7 .login-content .rmb-pass .col-md-6:first-child span{
     font-size: 14px;
 }
+.login-form .row .col-md-7 .login-content .rmb-pass .col-md-6:first-child input{
+    width: 20px;
+}
 .login-form .row .col-md-7 .login-content .rmb-pass .col-md-6:last-child a{
     font-size: 14px;
     display: flex;
@@ -116,7 +119,7 @@ body{
 
 /* register-box */
 .register-form{
-    width: 70%;
+    width: 50%;
     padding: 30px;
     height: auto;
     background-color: #fff;

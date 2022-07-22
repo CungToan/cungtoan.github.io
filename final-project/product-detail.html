@@ -118,23 +118,38 @@
                 <div class="product-footer">
                     <div class="wishlist"><i class="fa-solid fa-heart"></i></div>
                     <button class="add-btn">Add to cart</button>
+                    <button class="add-btn">Buy now</button>
                 </div>
             </div>
         </div>
     </div>
     <!-- product detail -end -->
     <!-- product info -start -->
-    <ul class="nav nav-tabs">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Description</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Feedback</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Store address</a>
-        </li>
-      </ul>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Description</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Review</button>
+      </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <ul>
+          <li>This easily-digestible dog food is crafted without corn, wheat or soy.
+          </li>
+          <li>High-protein recipe features real, nutrient-rich salmon as the very first ingredient.
+          </li>
+          <li>Formulated to nurture your sidekick’s sensitive skin and stomach.
+          </li>
+          <li>Includes omega-6 fatty acids to help support a healthy skin and coat.
+          </li>
+          <li>Fortified with live probiotics and prebiotic fiber for digestive and immune health.</li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+    </div>
     <!-- product info -start -->
     <!-- suggestion-start -->
     <div class="hot-deal">

@@ -4,19 +4,16 @@
     }
     .footer .row .col-md-3{
         margin-top:10px;
+        align-items: center;
     }
-    #owl-three .item{
-        height: 300px !important;
+    .header-container{
+        margin: 0;
     }
-    #owl-three .item:first-child h4{
-        font-size: 32px !important;
+    #modal-box{
+        width: 70% !important;
     }
-    #owl-three .item:first-child p{
-        font-size: 18px !important;
-    }
-    #owl-three .item:first-child button{
-        font-size: 16px !important;
-        padding: 5px 10px !important;
+    #modal-box button:first-child{
+        margin-bottom: 10px;
     }
 }
 @media only screen and (min-width:577px) {
@@ -25,5 +22,8 @@
     }
     .header-container{
         margin-top:5px;
+    }
+    .footer-fl-us{
+        justify-content: center;
     }
 }

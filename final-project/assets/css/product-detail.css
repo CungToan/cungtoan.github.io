@@ -163,7 +163,7 @@ ul.navbar-nav li a.nav-link{
 }
 .container .row .col-md-6:nth-child(2) .product-footer .add-btn{
     width: fit-content;
-    padding: 4px 30px;
+    padding: 4px 15px;
     height: 40px;
     border:none;
     outline: none;
@@ -171,6 +171,9 @@ ul.navbar-nav li a.nav-link{
     background-color: #F04336;
     color:#fff;
     transition: all 0.3s ease-in-out;
+}
+.container .row .col-md-6:nth-child(2) .product-footer .add-btn:last-child{
+    margin-left: 10px;
 }
 .container .row .col-md-6:nth-child(2) .product-footer .add-btn:hover{
     background-color: #ff655a;
@@ -180,6 +183,9 @@ ul.navbar-nav li a.nav-link{
 ul.nav{
     width: 80%;
     margin-top:50px;
+}
+#myTabContent #home ul{
+    margin-top: 15px;
 }
 /* suggestion */
 .hot-deal{

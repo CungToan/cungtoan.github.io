@@ -2,4 +2,19 @@
  .login-form .row .col-md-5 img{
     display: none;
  }   
+ .login-form{
+   width: 70% !important;
+ }
+ .register-form{
+   width: 80% !important;
+ }
+ .register-form .row .col-md-2 p{
+   margin: 10px 0 0 0;
+}
+.register-form .reg-btn{
+   margin-top: 10px;
+}
+.banner-box #owl-one .item .shopping-banner{
+   display: none !important;
+}
 }

@@ -114,15 +114,15 @@ width: 100%;
     background-color: #F04336;
     color:#fff;
 }
-
-/* breadcrumb */
+/*  */
 .content-wrapper{
     width: 100%;
     display: flex;
-    /* justify-content: center; */
     flex-direction: column;
     align-items: center;
 }
+/* breadcrumb */
+
 .nav-bc{
     width: 80%;
     margin: 30px 0;

@@ -4,9 +4,26 @@
     }
     .footer .row .col-md-3{
         margin-top:10px;
+        align-items: center;
     }
     .header-container{
         margin: 0;
+    }
+    .shopping-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 320px !important;
+    }
+    .banner-content{
+        width: 80% !important;
+        padding:0 !important;
+    }
+    .banner-content p{
+        font-size: 32px !important;
+    }
+    .banner-content button{
+        width: 150px !important;
     }
 }
 @media only screen and (min-width:577px) {
@@ -16,5 +33,7 @@
     .header-container{
         margin-top:5px;
     }
-
+    .footer-fl-us{
+        justify-content: center;
+    }
 }
