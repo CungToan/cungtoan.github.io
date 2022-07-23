@@ -36,4 +36,7 @@
     .footer-fl-us{
         justify-content: center;
     }
+    .blog-container .blog-footer a{
+        padding-right: 46px;
+    }
 }

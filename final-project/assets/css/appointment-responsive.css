@@ -4,6 +4,7 @@
     }
     .footer .row .col-md-3{
         margin-top:10px;
+        align-items: center;
     }
 }
 @media only screen and (min-width:577px) {

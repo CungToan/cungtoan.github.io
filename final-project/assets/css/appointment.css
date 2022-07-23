@@ -245,7 +245,7 @@ ul.navbar-nav li a.nav-link{
 }
 .footer .row {
     height: 100%;
-    margin:0;
+    margin:0;    
 }
 .footer .row .col-sm-12{
     display: flex;
@@ -309,7 +309,7 @@ margin-top: 30px
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
 }
 .footer .row .col-md-3 p{
@@ -320,6 +320,7 @@ margin-top: 30px
 .footer .row .col-md-3 ul{
     list-style: none;
     padding-left:0;
+
 }
 .footer .row .col-md-3 ul li{
     color: #fff;

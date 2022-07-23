@@ -89,7 +89,9 @@ ul.navbar-nav li a.nav-link{
 }
 
 /* contact main box */
-
+.container .row {
+    margin-bottom: 30px;
+}
 .container .row form .form-contacts{
     display: flex;
     flex-direction: column;
