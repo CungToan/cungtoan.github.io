@@ -111,10 +111,10 @@ body{
     font-size: 14px;
     padding-top: 10px;
     transition: all 0.3s ease-in-out;
-    color:blue;
+    color:black;
 }
 .login-form .row .col-md-7 .btn p:hover{
-    font-size: 15px;
+    color:blue;
 }
 
 /* register-box */
