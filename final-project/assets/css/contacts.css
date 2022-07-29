@@ -235,6 +235,7 @@ ul.navbar-nav li a.nav-link{
     background-color: black;
     margin-top: auto;
     padding: 20px 0;
+    min-height: 100vh;
 }
 .footer .row {
     height: 100%;
