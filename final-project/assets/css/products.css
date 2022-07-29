@@ -53,8 +53,7 @@ body{
     align-items: center;
 }
 .header-container .col-md-2:last-child .btn{
-    border: 1px solid #F04336;
-    margin-right: 20px;
+    background-color: #ffeae9;
     height: 40px;
     font-size: 16px;
     display: flex;

@@ -59,9 +59,19 @@
         width: 60% !important;
     }
     .banner-box .shopping-banner .banner-content p{
-        font-size: 37px !important;
+        font-size: 30px !important;
     }
     .banner-box .shopping-banner{
         height: 450px;
+    }
+    .banner-box .shopping-banner{
+        height: 350px !important;
+    }
+    .owl-theme .owl-nav{
+        top: -200px !important;
+    }
+    .banner-box .shopping-banner .banner-content button{
+        width: 150px !important;
+        height: 40px !important;
     }
 }

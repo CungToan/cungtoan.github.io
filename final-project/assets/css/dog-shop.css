@@ -461,7 +461,7 @@ margin-top: 30px
 /* responsive */
 @media only screen and (max-width:576px){
   .banner{
-    background-position-y: 0;
+    background-position-y: -85px;
     height: 300px;
 
   }
@@ -508,10 +508,11 @@ margin-top: 30px
         padding-left: 0;
     }
     .banner{
-        background-position-y: 0;
-        height: 350px;
+        background-position-y: -85px;
+        height: 350px !important;
     }
     .fav-item-icon i, .cart-icon i{
         font-size: 14px;
     } 
+
 }
