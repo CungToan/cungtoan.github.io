@@ -135,13 +135,13 @@ ul.navbar-nav li a.nav-link{
 }
 .card-container .row .col-4{
     overflow: hidden;
-    
 }
 .card-container .row .col-4 img{
     transition: all 0.3s ease;
+    cursor: pointer;
 }
 .card-container .row .col-4:hover img{
-    transform: scale(0.9);
+    transform: scale(0.97);
 }
 .card-container .row .col-4 .btn{
     background-color: #F04336;
@@ -235,15 +235,17 @@ ul.navbar-nav li a.nav-link{
     margin-top: 40px;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 20px;
 }
 .pic-box-wrap h3{
     text-align: center;
     font-weight: 700;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 #owl-two{
     width: 73%;
+    margin-bottom: 20px;
     
 }
 #owl-two img{
@@ -251,16 +253,16 @@ ul.navbar-nav li a.nav-link{
     object-fit: cover;
     cursor: pointer;
     transition: all 0.3s ease;
-    transform: scale(0.9);
+    transform: scale(1.0);
 }
 #owl-two img:hover{
-    transform: scale(1.0);
+    transform: scale(0.97);
 }
 /* homepages footer */
 .footer{
     width: 100%;
     height: 100%;
-    background-color: #F04336;
+    background-color: black;
     margin-top: auto;
     padding: 20px 0;
 }
@@ -336,7 +338,7 @@ margin-top: 30px
 .footer .row .col-md-3 p{
     font-size: 22px;
     font-weight: 700;
-    color: yellow
+    color: #fff;
 }
 .footer .row .col-md-3 ul{
     list-style: none;

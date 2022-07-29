@@ -280,7 +280,7 @@ ul.nav{
 .footer{
     width: 100%;
     height: 100%;
-    background-color: #F04336;
+    background-color: black;
     margin-top: auto;
     padding: 20px 0;
 }
@@ -356,7 +356,7 @@ margin-top: 30px
 .footer .row .col-md-3 p{
     font-size: 22px;
     font-weight: 700;
-    color: yellow
+    color: #fff;
 }
 .footer .row .col-md-3 ul{
     list-style: none;
@@ -375,4 +375,5 @@ margin-top: 30px
     font-size: 17px;
     font-weight: 500;
 }
+
 
