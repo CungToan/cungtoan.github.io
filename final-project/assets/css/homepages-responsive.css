@@ -3,6 +3,7 @@
         display: none;
     }
 }
+
 @media only screen and (max-width:576px){
     
     .footer .row .col-md-3{
@@ -41,5 +42,26 @@
     }
     .blog-container .blog-footer a{
         padding-right: 46px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 1080px){
+    .header-container .row .col-md-2:last-child{
+        padding-left: 0;
+    }
+    .header-container .col-md-2:last-child .btn{
+        font-size: 14px !important;
+        padding: 0 5px;
+    }
+    .header-container .col-md-2:first-child{
+        transform: scale(0.76);
+    }
+    .banner-box .shopping-banner .banner-content{
+        width: 60% !important;
+    }
+    .banner-box .shopping-banner .banner-content p{
+        font-size: 37px !important;
+    }
+    .banner-box .shopping-banner{
+        height: 450px;
     }
 }

@@ -51,7 +51,6 @@ body{
 }
 .header-container .col-md-2:last-child .btn{
     background-color: #ffeae9;
-    margin-right: 20px;
     height: 40px;
     font-size: 16px;
     display: flex;
@@ -79,6 +78,31 @@ button.navbar-toggler{
 }
 ul.navbar-nav li a.nav-link{
     color:black;
+}
+.owl-theme .owl-dots{
+    position: relative;
+    top: -70px;
+}
+.owl-theme .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: -250px;
+}
+.owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{
+    background-color: rgb(50, 50, 50);
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+.owl-carousel .owl-nav button.owl-prev span,.owl-carousel .owl-nav button.owl-next span{
+    font-size: 23px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#fff;
+    width: 30px;
 }
 /* Header end */
 
