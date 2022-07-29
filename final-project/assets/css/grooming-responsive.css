@@ -49,5 +49,13 @@
     #owl-three .item:first-child p{
         font-size: 24px !important;
     }
-    
+    .stories-wrap .col-md-8 p{
+        font-size: 16px !important;
+    }
+    .grooming-services .row .col-md-3 h3{
+        font-size: 20px !important;
+    }
+    .grooming-services .row .col-md-3 p{
+        font-size: 12px;
+    }
 }

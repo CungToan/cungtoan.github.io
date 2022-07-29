@@ -132,6 +132,9 @@ ul.navbar-nav li a.nav-link{
 .nav-bc ol li a{
     color: #F04336;
 }
+.owl-theme .owl-nav,.owl-theme .owl-dots{
+    display: none;
+}
 
 /* our story */
 .stories-wrap{
