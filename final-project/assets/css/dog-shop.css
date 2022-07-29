@@ -499,4 +499,19 @@ margin-top: 30px
     .dog-things .row .col-md-3 .category .category-tab span{
         font-size: 16px;
     }
+    .header-container .col-md-2:last-child .btn{
+        margin-right: 0;
+        font-size: 12px;
+        padding: 0px 5px;
+    }
+    .header-container .row .col-md-2:last-child{
+        padding-left: 0;
+    }
+    .banner{
+        background-position-y: 0;
+        height: 350px;
+    }
+    .fav-item-icon i, .cart-icon i{
+        font-size: 14px;
+    } 
 }
