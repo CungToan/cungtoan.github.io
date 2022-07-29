@@ -108,8 +108,11 @@ ul.navbar-nav li a.nav-link{
     border-radius: 20px;
     margin: 10px 0;
 }
-.container .row .col-md-6:nth-child(2) .numbs span{
+.container .row .col-md-6:nth-child(2) .numbs button{
     padding: 0 5px;
+    background-color: #fff;
+    border:none;
+    outline: none;
 }
 .container .row .col-md-6:nth-child(2) .size{
     display: flex;
