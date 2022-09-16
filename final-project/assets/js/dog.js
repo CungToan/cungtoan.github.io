@@ -100,7 +100,7 @@ escapeCart.addEventListener("click", function(){
     document.querySelector('.shopping-cart').style.right = "-100%";
 })
 
-for (let i = 0l i< cartBtn.length;i++){
+for (let i = l; i< cartBtn.length;i++){
     cartBtn[i].addEventListener('click', () =>{
         cartCount()
     })
