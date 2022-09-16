@@ -5,13 +5,17 @@ let value = 1;
 productCount.innerText = value;
 
 function decreaseNumb(){
-    --value;
-    productCount.innerText = value;
+    if(value >0){
+        --value;
+        productCount.innerText = value;
+    }
 }
 
 function increaseNumb(){
-    value++;
-    productCount.innerText = value;
+    if(value >=0){
+        value++;
+        productCount.innerText = value;
+    }
 }
 
 productDecrease.onclick = decreaseNumb;
