@@ -161,11 +161,11 @@ width: 100%;
     height: 100vh;
     right: -100%;
     top: 0;
-    background-color: rgb(255, 239, 239);
+    background-color: rgb(248, 227, 227);
     padding: 12px 20px;
     overflow: scroll;
-    margin-top:50px;
     transition: all 0.3s ease-in-out;
+    z-index: 99;
 }
 .shopping-cart .escape-btn span{
     display: flex;
@@ -217,9 +217,8 @@ width: 100%;
 .cart-total-price span{
     font-weight: 700;
 }
-.cart-total-price button{
-    outline: none;
-    border:none;
+.cart-total-price a{
+    text-decoration: none;
     padding: 5px 20px;
     font-size: 17px;
     background-color: #F04336;
@@ -227,7 +226,7 @@ width: 100%;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
-.cart-total-price button:hover{
+.cart-total-price a:hover{
     background-color: #c4261b;
 }
 
