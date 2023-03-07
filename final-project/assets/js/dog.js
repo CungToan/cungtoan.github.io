@@ -100,45 +100,29 @@ escapeCart.addEventListener("click", function(){
     document.querySelector('.shopping-cart').style.right = "-100%";
 })
 
-for (let i = l; i< cartBtn.length;i++){
-    cartBtn[i].addEventListener('click', () =>{
-        cartCount()
-    })
-}
-function cartCount(){
-    let prdCount = localStorage.getItem('cartsCount');
-    let cartShow = document.querySelector('.header-container .col-md-2:last-child .cart-icon span');
-    prdCount = parseInt(prdCount);
-    if(prdCount){
-        localStorage.setItem('cartsCount', prdCount +1);
-        cartShow.textContent = prdCount +1;
-    } else {
-        localStorage.setItem('cartsCount', 1)
-        cartShow.textContent = prdCount = 1;
-    }
-}
+// for (let i = l; i< cartBtn.length;i++){
+//     cartBtn[i].addEventListener('click', () =>{
+//         cartCount()
+//     })
+// }
+// function cartCount(){
+//     let prdCount = localStorage.getItem('cartsCount');
+//     let cartShow = document.querySelector('.header-container .col-md-2:last-child .cart-icon span');
+//     prdCount = parseInt(prdCount);
+//     if(prdCount){
+//         localStorage.setItem('cartsCount', prdCount +1);
+//         cartShow.textContent = prdCount +1;
+//     } else {
+//         localStorage.setItem('cartsCount', 1)
+//         cartShow.textContent = prdCount = 1;
+//     }
+// }
 
-function displayCart(){
-    let prdCount = localStorage.getItem('cartsCount');
-    if(prdCount){
-        cartShow.textContent = prdCount;
-    }
-}
-displayCart();
+// function displayCart(){
+//     let prdCount = localStorage.getItem('cartsCount');
+//     if(prdCount){
+//         cartShow.textContent = prdCount;
+//     }
+// }
+// displayCart();
 
-let mybutton = document.getElementById("myBtn");
-
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
